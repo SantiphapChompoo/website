@@ -29,7 +29,6 @@ nav {
 	background: linear-gradient( #C0962D 50%, #AB8420 50%);
 	color: #fff;
 	z-index: 999;
-	width: 100%;
 }
 
 .maininput{
@@ -112,6 +111,7 @@ nav {
 	width: 224px;
 	height: 420px;
 	margin-bottom: 1rem;
+	border-radius: 10px;
 }
 
 .article-box-left ul li {
@@ -139,6 +139,7 @@ nav {
 	width: 224px;
 	height: 308px;
 	margin: 3rem -.2rem;
+	border-radius: 10px;
 }
 
 .header-box1{
@@ -213,11 +214,12 @@ nav {
 	margin: .5rem -.3rem;
 }
 
-.article-box-left2 h3 {
+.article-box-left2 a {
+	text-decoration: none;
 	margin-left: 40px;
-	color: #fff;
-	font-size: 18px;
+	color: #fff;;
 }
+
 
 .article-grid {
 	display: flex;
@@ -354,7 +356,6 @@ footer {
 	display:  flex;
 	justify-content: center;
 	text-align: center;
-	width: 100%;
 } 
 
 .footer-items1 {
@@ -529,8 +530,17 @@ footer {
 	padding: 0.5rem;
 	width: 65px;
 	border-radius: 10px;
-	border: 1px solid #000;
+	border: 2px solid #000;
 	margin: 0.5rem 1rem;
+	background: #fff;
+	color: #000;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #000;
+	color: #fff;
 }
 
 .box-rgihtheader {
@@ -541,4 +551,42 @@ footer {
 .btn-con {
 	display: flex;
 	justify-content: center;
+}
+
+.slide {
+	width: 650px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow: hidden;
+	border-radius: none;
+	border: 3px solid #333;
+}
+
+.slide div img {
+	width: 20%;
+	height: 350px;
+	float: left;
+	border-radius: none;
+}
+
+.slide div {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: animate-pictrue 10s infinite linear;
+}
+
+@keyframes animate-pictrue {
+	0%{left: 0%;}
+	15%{left: 0%;}
+	20%{left: -100%;}
+	35%{left: -100%;}
+	40%{left: -200%;}
+	60%{left: -200%;}
+	65%{left: -300%;}
+	80%{left: -300%;}
+	85%{left: -400%;}
+	100%{left: -400%;}
 }
