@@ -29,6 +29,7 @@ nav {
 	background: linear-gradient( #C0962D 50%, #AB8420 50%);
 	color: #fff;
 	z-index: 999;
+	width: 100%;
 }
 
 .maininput{
@@ -353,6 +354,7 @@ footer {
 	display:  flex;
 	justify-content: center;
 	text-align: center;
+	width: 100%;
 } 
 
 .footer-items1 {
