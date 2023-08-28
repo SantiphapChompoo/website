@@ -28,7 +28,7 @@ nav {
 	height: 67px;
 	background: linear-gradient( #C0962D 50%, #AB8420 50%);
 	color: #fff;
-	z-index: 999;
+	box-shadow: inset 1em 1em #8f6e1d;
 }
 
 .maininput{
@@ -352,10 +352,12 @@ footer {
 	background: #243B63;
 	margin-top: 20px;
 	color: #fff;
-	padding: 3rem;
+	padding: 1rem 0;
 	display:  flex;
 	justify-content: center;
 	text-align: center;
+	box-shadow: inset 2em 0.8em #4e73b5;
+
 } 
 
 .footer-items1 {
