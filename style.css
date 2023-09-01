@@ -25,10 +25,14 @@ body {
 
 nav {
 	padding: 1rem ;
-	height: 67px;
-	background: linear-gradient( #C0962D 50%, #AB8420 50%);
 	color: #fff;
-	box-shadow: inset 1em 1em #a17d26;
+	height: 67px;
+    	background: linear-gradient( #C0962D 50%, #AB8420 50%);
+    	color: #fff;
+    	box-shadow: 0 0 0 2em #a17d26, 0 0 4em #000;
+    	margin: 40px 44px 49px 51px;
+   	 padding: 0;
+    	border-radius: 3px;
 }
 
 .maininput{
@@ -351,13 +355,15 @@ nav {
 
 footer {
 	background: #243B63;
-	margin-top: 20px;
 	color: #fff;
 	padding: 1rem 0;
 	display:  flex;
 	justify-content: center;
 	text-align: center;
 	border-radius: 10px;
+	max-width: 1500px;
+	margin: 20px auto  20px;
+	box-shadow: 0 0 5px 2px #375c9d;
 
 } 
 
