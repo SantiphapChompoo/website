@@ -28,7 +28,7 @@ nav {
 	height: 67px;
 	background: linear-gradient( #C0962D 50%, #AB8420 50%);
 	color: #fff;
-	box-shadow: inset 1em 1em #8f6e1d;
+	box-shadow: inset 1em 1em #a17d26;
 }
 
 .maininput{
@@ -212,6 +212,7 @@ nav {
 	background: linear-gradient( #DE6E32 50%,#CA581C 50%);
 	height: 80px;
 	margin: .5rem -.3rem;
+	border-radius: :;
 }
 
 .article-box-left2 a {
@@ -356,7 +357,7 @@ footer {
 	display:  flex;
 	justify-content: center;
 	text-align: center;
-	box-shadow: inset 2em 0.8em #4e73b5;
+	border-radius: 10px;
 
 } 
 
